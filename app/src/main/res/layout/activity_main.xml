@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:scrollbars="vertical"
+    android:id="@+id/ScrollView"
+    android:background="#aabbcc">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/LinearLayout">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Textview"
+        android:text="文本框控件"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button"
+        android:text="按钮控件0"/>
+
+</LinearLayout>
+
+
+
+</ScrollView>
